@@ -1,0 +1,16 @@
+[09-Feb-2012 10:37:30] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 110
+[09-Feb-2012 10:37:34] PHP Fatal error:  Call to a member function getPatientQuery() on a non-object in /home/cuddles/public_html/PatientManageMentSystem/patient/index.php on line 16
+[12-Feb-2012 18:16:57] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 110
+[12-Feb-2012 18:17:12] PHP Fatal error:  Call to a member function getPatientQuery() on a non-object in /home/cuddles/public_html/PatientManageMentSystem/patient/index.php on line 16
+[14-Feb-2012 21:43:52] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 66
+[18-Feb-2012 14:57:18] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 66
+[18-Feb-2012 14:59:07] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 66
+[18-Feb-2012 15:00:13] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 66
+[18-Feb-2012 15:00:30] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 66
+[18-Feb-2012 15:03:07] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 66
+[18-Feb-2012 15:05:51] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 66
+[18-Feb-2012 15:07:53] PHP Fatal error:  Call to undefined function fireQuery() in /home/cuddles/public_html/PatientManageMentSystem/patient/index.php on line 20
+[18-Feb-2012 15:08:17] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 66
+[18-Feb-2012 15:10:03] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 66
+[18-Feb-2012 15:10:07] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 66
+[18-Feb-2012 15:27:22] PHP Warning:  Invalid argument supplied for foreach() in /home/cuddles/public_html/PatientManageMentSystem/patient/view/patientQuery.php on line 66

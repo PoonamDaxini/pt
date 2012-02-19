@@ -1,0 +1,2 @@
+[13-Feb-2012 17:08:14] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/cuddles/public_html/PatientManageMentSystem/classes/mysqlDatabaseClass.php on line 36
+[13-Feb-2012 17:08:16] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/cuddles/public_html/PatientManageMentSystem/classes/mysqlDatabaseClass.php on line 36

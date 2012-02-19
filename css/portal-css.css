@@ -1,0 +1,418 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	background:#FFF !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, div, ul, li, a
+{
+	margin:0;
+	padding:0;
+}
+
+.divClear, .divClr, .clear {
+	clear:both;
+}
+
+a img
+{
+	border:none;
+}
+
+#divStatusBar {
+	background: none repeat scroll 0 0 black;
+    box-shadow: 2px 2px 2px #333333 inset;
+    color: #FFFFFF;
+    font-family: "myriad Pro",Verdana,Arial;
+    font-size: 13px;
+    height: 25px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.imgLogo
+{
+	padding-left:20px;
+}
+
+.Welcome{
+	float: left;
+    margin-left: 200px;
+    margin-top: 4px;
+}
+.Account{
+	float:right;
+	margin:4px 100px 0 0;
+}
+.Account a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+#divHeader{
+	width:100%;
+	padding:10px 0;
+	background:#FFF;
+	box-shadow: 0px -10px 50px #ADADAD inset;
+}
+
+#divNavBar {
+	float: right;
+    margin-top: 45px;
+}
+
+#divContent{
+	margin: 0 auto;
+	padding: 20px;
+	min-height:338px
+}
+
+#divContent h1
+{
+	font-family: calibri;
+    font-size: 18pt;
+    letter-spacing: -1px;
+    margin: 0 0 20px;
+}
+
+#divFooter{
+	background: none repeat scroll 0 0 #99CC00;
+    box-shadow: -20px -30px 60px #00CC33 inset;
+    padding: 20px 0;
+    width: 100%;
+	text-align:center;
+	line-height: 2em;
+}
+
+.imgCredits
+{
+	margin-left: 5px;
+    position: absolute;
+}
+
+
+.divDashBoard
+{
+	margin: 0 auto;
+    width: 70%;
+}
+
+.ulDashBoardColumn
+{
+	float:left;
+}
+
+.ulDashBoardColumn li
+{
+	display: inline;
+    float: left;
+    list-style: none outside none;
+	/*margin:0 75px;*/
+	width: 303px;
+	border-right: 1px solid #e5e5e5;
+}
+
+.ulDashBoardColumn li.liDashboardLastColumn
+{
+	border-right:none;
+}
+
+.ulDashBoardColumn li a img
+{
+	display: block;
+    height: 155px;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.ulDashBoardColumn a
+{
+	clear: both;
+    display: block;
+    text-align: center;
+	text-decoration:none;
+}
+
+.ulDashBoardColumn a span
+{
+	background: none repeat scroll 0 0 #333333;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    font-size: 10pt;
+    padding: 5px 15px;
+}
+
+.ulDashBoardColumn a span:hover
+{
+	background:#000;
+}
+
+/* ########################################################## */
+/* ################# MAIN NAVIGATION CSS #################### */
+/* ########################################################## */
+ul#css3menu1,ul#css3menu1 ul{
+	margin:0;list-style:none;padding:0;/*background-color:#dedede;border-width:1px;border-style:solid;border-color:#5f5f5f;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;*/}
+ul#css3menu1 ul{
+	display:none;position:absolute;left:0;top:100%;-moz-box-shadow:3.5px 3.5px 5px #000000;-webkit-box-shadow:3.5px 3.5px 5px #000000;box-shadow:3.5px 3.5px 5px #000000;padding:0 10px 10px;background-color:#FFFFFF;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;border-color:#d4d4d4;}
+ul#css3menu1 li:hover>*{
+	display:block;}
+ul#css3menu1 li:hover{
+	position:relative;}
+ul#css3menu1 ul ul{
+	position:absolute;left:100%;top:0;}
+ul#css3menu1{
+	display:block;font-size:0;float:left;margin-right: 15px;}
+ul#css3menu1 li{
+	display:block;white-space:nowrap;font-size:0;float:left;}
+ul#css3menu1>li,ul#css3menu1 li{
+	margin:0;}
+ul#css3menu1 a:active, ul#css3menu1 a:focus{
+	outline-style:none;}
+ul#css3menu1 a{
+	background-image: url("../images/mainbk.png");
+    background-position: left bottom;
+    background-repeat: repeat;
+    border-right: 1px solid #EBEBEB;
+    color: #000000;
+    cursor: pointer;
+    display: block;
+    font-size: 10pt;
+    padding: 10px 20px;
+    text-decoration: none;
+    vertical-align: middle;
+	font-weight:bold;
+	}
+ul#css3menu1 ul li{
+	float:none;margin:10px 0 0;}
+ul#css3menu1 ul a{
+	text-align:left;padding:4px;background-color:#FFFFFF;background-image:none;border-width:0;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;font:14px Tahoma;color:#000;text-decoration:none;}
+ul#css3menu1 li:hover>a{
+	
+	background: #F8AC00 url("../images/mainbk.png");
+    background-position: left bottom;
+    background-repeat: repeat;
+    border-right: 1px solid #DADADA;
+    color: #000000;
+    cursor: pointer;
+    display: block;
+    font-size: 10pt;
+    text-decoration: none;
+    vertical-align: middle;
+	text-decoration:none;
+	background-position:0 100px;
+	}
+	
+	ul#css3menu1 li.active{
+	background-color:#F8AC00;
+	font:bold 14px Trebuchet MS;
+	color:#000000;
+	text-decoration:none;
+	text-shadow:#FFF 0 0 1px;
+	background-image:url(../images/mainbk.png);
+	background-position:0 100px;
+}
+	
+ul#css3menu1 img{
+	border:none;vertical-align:middle;margin-right:10px;}
+ul#css3menu1 img.over{
+	display:none;}
+ul#css3menu1 li:hover > a img.def{
+	display:none;}
+ul#css3menu1 li:hover > a img.over{
+	display:inline;}
+ul#css3menu1 span{
+	display:block;overflow:visible;background-position:right center;background-repeat:no-repeat;padding-right:0px;}
+ul#css3menu1 ul li:hover>a{
+	background-color:#FFFFFF;background-image:none;font:14px Tahoma;color:#868686;text-decoration:none;}
+ul#css3menu1 li.topfirst>a{
+	height:20px;line-height:20px;/*border-radius:5px 0 0 5px;-moz-border-radius:5px 0 0 5px;-webkit-border-radius:5px;-webkit-border-top-right-radius:0;-webkit-border-bottom-right-radius:0;border:none;*/}
+ul#css3menu1 li.topfirst:hover>a{
+	line-height:20px;}
+ul#css3menu1 li.topmenu>a{
+	height:20px;line-height:20px;}
+ul#css3menu1 li.topmenu:hover>a{
+	line-height:20px;}
+ul#css3menu1 li.toplast>a{
+	height:20px;line-height:20px;/*border-radius:0 5px 5px 0;-moz-border-radius:0 5px 5px 0;-webkit-border-radius:0;-webkit-border-top-right-radius:5px;-webkit-border-bottom-right-radius:5px;*/}
+ul#css3menu1 li.toplast:hover>a{
+	line-height:20px;}
+
+p.pWelcome
+{
+	color: #333333;
+    font-weight: bold;
+    padding-right: 20px;
+    text-align: right;
+}
+
+
+/* ########################################################## */
+/* ############### REGISTRATION FORM CSS #################### */
+/* ########################################################## */
+
+#ribbon2 {
+	left: 119px;
+    position: absolute;
+    top: 196px;
+}
+
+/*form label {
+	display: block;
+	float: left;
+	line-height: 2em;
+	margin-top: 10px;
+	text-align: left;
+	width: 200px;
+}
+
+
+
+#register input[type="text"] {
+	border: 1px solid #F4F4F4;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 1px 1px #ADADAD inset;
+	color: #666;
+	font-family: arial;
+    font-size: 10pt;
+	font-weight: normal;
+	padding: 8px;
+	width: 50%;
+}
+ 
+#register input[type="password"] {
+	border: 1px solid #F4F4F4;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 1px 1px #ADADAD inset;
+	color: #333333;
+	font-size: 15px;
+	font-weight: normal;
+	height: 25px;
+	padding: 3px 3px 6px 10px;
+	width: 50%;
+}
+
+#register input[type="submit"] {
+	background:url(../images/reg_buttons.png) repeat scroll 0 0 transparent;
+	border: medium none;
+	cursor: pointer;
+	float: center;
+	height: 52px;
+	width: 142px;
+}
+#register input[type="reset"] {
+	background:url(../images/reset_buttons.png) repeat scroll 0 0 transparent;
+	border: medium none;
+	cursor: pointer;
+	float: center;
+	height: 52px;
+	margin-left:10px;
+	width: 142px;
+}*/
+
+/* Error Message CSS */
+.regularmsg
+{
+	background: url("../images/success-msg.png") no-repeat scroll 0 0 #7DC13E;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    margin: 0 auto 17px;
+    padding: 15px 15px 15px 60px;
+    width: 77%;
+}
+
+form {
+	background: url("../images/bg.png") no-repeat scroll right bottom #F3F3F3;
+    box-shadow: 5px 4px 75px 43px #E1E1E1 inset;
+    height: auto;
+    line-height: 30px;
+    margin: 0 auto 35px;
+    padding: 30px 10px 20px 100px;
+    width: 75%;
+}
+
+/* CSS for <b> */
+form table td b
+{
+	display: block;
+    margin-right: 20px;
+    padding: 8px 0;
+    text-align: right;
+    width: 210px;
+	line-height: 30px;
+	font-size: 9pt;
+}
+
+.jqTransformInputWrapper
+{
+	width:400px !important;
+}
+
+.divBtnContainer
+{
+	padding: 25px 15px 0 0;
+}
+
+form label.error {
+	color: red;
+    display: block;
+    float: left;
+    font-size: 8pt;
+    line-height: 18px;
+    width: auto;
+}
+
+/* #################### FOOTER CSS ################## */
+.footer
+{
+	background: none repeat scroll 0 0 #F2F2F2;
+    border-top: 5px double #E8E8E8;
+    color: gray;
+	width:100%;
+	padding: 10px 0;
+}
+
+#footer
+{
+	position : absolute;
+    bottom : 0;
+    height : 20px;
+    margin-top : 40px;
+}
+
+.footer p.copyright
+{
+	float:left;
+	margin-left: 15px;
+}
+
+.footer p.credits
+{
+	float:right;
+	margin-right: 15px;
+}
+
+.divUserTopLinks
+{
+	float: right;
+    margin-bottom: 10px;
+}
+
+.divUserTopLinks .aAdd
+{
+	
+}
+
+.subheading
+{
+	color: #F6841E;
+    font-family: calibri;
+    font-size: 17pt;
+    line-height: 2em;
+    margin: 0 0 10px;
+}

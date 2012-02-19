@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	background:url(../images/2.jpg) repeat scroll #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6, p, div, ul, li, a
+{
+	margin:0;
+	padding:0;
+}
+
+.divClear {
+	clear:both;
+}
+
+a img
+{
+	border:none;
+}
+
+#divFormOuter {
+	text-align:center;
+	font-size:10pt;
+	line-height:3.0em;
+	color:#333;
+	background-color:#FFF;
+	border-radius:5px;
+	border:2px solid #FBFBFB;
+	height:380px;
+	width:400px;
+	padding:20px;
+	position:absolute;
+	top: 45%;
+	left: 50%;
+	margin-top: -183px; /*set to a negative number 1/2 of your height*/
+	margin-left: -200px; /*set to a negative number 1/2 of your width*/
+	-moz-box-shadow: 0 0 10px 1px #999;
+	-webkit-box-shadow: 0 0 10px 1px #999;
+}
+
+#divRegFormOuter {
+	font-size:10pt;
+	line-height:3.0em;
+	color:#333;
+	background-color:#FFF;
+	border-radius:5px;
+	border:2px solid #FBFBFB;
+	height:90%;
+	width:1000px;
+	margin:50px auto;
+	-moz-box-shadow: 0 0 10px 1px #999;
+	-webkit-box-shadow: 0 0 10px 1px #999;
+}
+
+h3.subheading
+{
+	color: #F6841E;
+    font-family: calibri;
+    font-size: 17pt;
+    line-height: 2em;
+    margin: 0 0 10px;
+}
+
+/* LOGIN FORM CSS */
+
+#ribbon {
+	position: absolute;
+	left: -16px;
+	top: -13px;
+}
+
+.UserName {
+	background-image:url(../images/1328267882_group.png);
+	background-repeat:no-repeat;
+}
+.Pass {
+	background-image:url(../images/pass.png);
+	background-repeat:no-repeat;
+}
+
+#divForm 
+{
+	background: none repeat scroll 0 0 #F3F3F3;
+	box-shadow: 4px 4px 5px #E1E1E1 inset;
+	height: auto;
+	padding: 5px 25px 30px;
+	width: auto;
+}
+
+#divForm label {
+	display: block;
+	line-height: 2em;
+	text-align: left;
+	margin-top: 15px;
+}
+
+#divForm label.error {
+	bottom: 52px;
+	color: red;
+	display: block;
+	font-size: 8pt;
+	letter-spacing: 1px;
+	line-height: 1em;
+	margin-left: 100px;
+	margin-top: 0;
+	position: relative;
+	text-align: left;
+	float:left;
+}
+
+#loginform
+{
+	background:none;
+	box-shadow: none;
+	height: auto;
+	line-height:3.5em;
+	padding: 0;
+	width: auto;
+}
+
+#loginform input[type="text"], #loginform input[type="password"] {
+	border: 1px solid #F4F4F4;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 1px 1px #ADADAD inset;
+	color: #666;
+	display: block;
+	font-size: 10pt;
+	font-weight: normal;
+	font-weight: normal;
+	padding: 8px 8px 8px 40px;
+	width: 86%;
+}
+
+#loginform input[type="submit"] {
+	background:url(../images/submit_buttons.png) repeat scroll 0 0 transparent;
+	border: medium none;
+	cursor: pointer;
+	float: right;
+	height: 52px;
+	margin-top: 20px;
+	width: 142px;
+}
+
+.NewUser {
+	color: teal;
+	float: left;
+	font-size: 10pt;
+	left: 50px;
+	letter-spacing: .5px;
+	position: relative;
+	text-align: center;
+	top: -10px;
+	line-height:1.5em;
+	width:165px;
+}
+.NewUser a {
+	font-size: 8pt;
+	color:black;
+	text-decoration:underline;
+}
+.NewUser a:hover {
+	color:green;
+	text-decoration:none;
+}
+
+/* REGISTRATION FORM CSS */
+
+#ribbon2 {
+	left: 162px;
+	position: absolute;
+	top: 40px;
+}
+
+form {
+	background:#F3F3F3 url(../images/bg.png) right 5% no-repeat;
+	box-shadow: 4px 4px 5px #E1E1E1 inset;
+	height: auto;
+	line-height:3.5em;
+	padding: 30px 10px 35px 100px;
+	width: auto;
+}
+
+form label {
+	display: block;
+	float: left;
+	line-height: 2em;
+	margin-top: 10px;
+	text-align: left;
+	width: 150px;
+}
+
+form label.error {
+	color: red;
+	display: block;
+	float: right;
+	width: 260px;
+	line-height:1em;
+}
+
+#register input[type="text"] {
+	border: 1px solid #F4F4F4;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 1px 1px #ADADAD inset;
+	color: #666;
+	font-family: arial;
+    font-size: 10pt;
+	font-weight: normal;
+	padding: 8px;
+	width: 50%;
+}
+ 
+#register input[type="password"] {
+	border: 1px solid #F4F4F4;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 1px 1px #ADADAD inset;
+	color: #333333;
+	font-size: 15px;
+	font-weight: normal;
+	height: 25px;
+	padding: 3px 3px 6px 10px;
+	width: 50%;
+}
+
+#register input[type="submit"] {
+	background:url(../images/reg_buttons.png) repeat scroll 0 0 transparent;
+	border: medium none;
+	cursor: pointer;
+	float: center;
+	height: 52px;
+	width: 142px;
+}
+#register input[type="reset"] {
+	background:url(../images/reset_buttons.png) repeat scroll 0 0 transparent;
+	border: medium none;
+	cursor: pointer;
+	float: center;
+	height: 52px;
+	margin-left:10px;
+	width: 142px;
+}
+
+.divBtnContainer
+{
+	padding: 25px 15px 0 0;
+}
